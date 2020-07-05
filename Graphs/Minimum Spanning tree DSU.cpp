@@ -35,7 +35,7 @@ struct dsu {
 struct Edge {
     int u, v, weight;
     bool operator<(Edge const& other) {
-        return weight > other.weight;
+        return weight < other.weight;
     }
 };
  
