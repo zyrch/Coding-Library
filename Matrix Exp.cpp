@@ -1,5 +1,5 @@
 // template end here
-ll siz;
+ll si;
 struct Matrix{
     vector<vector<ll>> mat;
     int nax;
@@ -21,8 +21,8 @@ struct Matrix{
 };
 
 Matrix fast_exp(Matrix base,ll power){
-    Matrix x=base,ans(siz);
-    fo(i, n) {
+    Matrix x=base,ans(si);
+    fo(i, si) {
 	ans.mat[i][i] = 1;
     }
     ll cnt = power;
