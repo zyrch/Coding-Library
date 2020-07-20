@@ -1,4 +1,8 @@
-# Condsider a case when you can take several objects of one type in the knapsack problem
+
+# Basic DP
+
+### Condsider a case when you can take several objects of one type in the knapsack problem,
+  
   Building on the classical version of the problem you can solve it by taking dp(i, x) as
   the maximum value after considering the first i objects such that there weight is x.
   
