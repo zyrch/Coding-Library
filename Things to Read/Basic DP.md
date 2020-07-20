@@ -43,5 +43,9 @@
                       
    Now immedialtly we can observe the second state is redundant as it is suboptimal to choose anyother state besides the minimum possible x, which we can directly store by making dp a pair
    {min_answer, last} or make two different dp tables, which give as the complexity of O(2<sup>n</sup>n)
+   
+   Note that the second methond is just a extension of the first one but instead of visiting the whole last group we can just visit the last person which contains info about the person before him and hence the whole group is taken care of, kind of like the first idea about unbounded knapsack.
+   
+   Also this optimization from O(3<sup>n</sup>) to O(2<sup>n</sup>n) cannot be used when the elements in the group are affected be each other or the size of the group matters or if the whole is more than the sum of parts if you will. For example we can change the above problem to that if there are x people in the elevator the elevator adds some non-linear function of x as extra weight, linear function can be handles by divied the weight amongst each person and removing the constant from the capacity, say ax + b is added so we can increase the weight of each person by x and remove b from the capacity. 
   
   
