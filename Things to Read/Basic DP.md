@@ -22,6 +22,12 @@
                
   It can also be thought of as, if an optimal path is drawn from dp(0, 0) to dp(i, x) which can take w_i jump vertically
   in the i-th column and one jump horizontal (from i to i + 1), the path will either come from dp(i - 1, x) or dp(i, x - w_i).
+
+### Removing redundant states
+   
+   This is kind of similar to the first idea, consider the problem : 
+   
+   *There are n people who want to get to the top of a building which has only one elevator. You know the weight of each person and the maximum allowed weight in the elevator. What is the minimum number of elevator rides?*
   
   
   
