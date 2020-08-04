@@ -1,6 +1,7 @@
 // template end here
 ll si;
 struct Matrix{
+    // change vector to 2D array to improve time complexity
     vector<vector<ll>> mat;
     int nax;
     Matrix (int siz) {
