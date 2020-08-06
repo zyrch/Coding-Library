@@ -51,10 +51,10 @@ struct Segtree {
 	}
 	
 	prop(idx);
-	ll minLeft = query(2 * idx, l, r);
-	ll minRight = query(2 * idx + 1, l, r);
+	ll Left = query(2 * idx, l, r);
+	ll Right = query(2 * idx + 1, l, r);
 	merge(idx);
-	return min(minLeft, minRight);
+	return min(Left, Right);
     }
     
     void merge(ll idx) {
