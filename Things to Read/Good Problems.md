@@ -11,7 +11,7 @@
   - https://codeforces.com/contest/1368/problem/F, solved on June 19
   - https://codeforces.com/contest/1362/problem/E, solved on June 6
   - https://codeforces.com/contest/1355/problem/E, solved on June 6
-  + https://codeforces.com/contest/1353/problem/F, solved on May 28
+  - https://codeforces.com/contest/1353/problem/F, solved on May 28, done
  
 2. CSES
   - https://cses.fi/problemset/task/1653, solved on July 20
