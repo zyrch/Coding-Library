@@ -1,3 +1,4 @@
+#include <chrono>
 struct custom_hash { // Credits: kal013
     static uint64_t splitmix64(uint64_t x) {
         // http://xorshift.di.unimi.it/splitmix64.c
