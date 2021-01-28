@@ -4,6 +4,8 @@ struct Segtree {
     vector<ll> delta;
     vector<ll> lo;
     vector<ll> hi;
+    // don't forget to set default value (used for leaves)
+    // not necessarily neutral element!
     Segtree(int n, vector<ll> arr) {
 	siz = 4 * n;
 	tree.resize(siz + 1);
